@@ -13,7 +13,7 @@
  <?php 
 	if (isset($_POST['recover-submit'])) {
 		# code...
-		$_SESSION['phonenumber'] = $_POST['phonenumber'];
+		$_SESSION['phonenumber'] = $_POST['phonenumber' ];
 		$customer = New Customer();
       	@$res = $customer->find_phone($_SESSION['phonenumber']);
 
