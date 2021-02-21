@@ -8,7 +8,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-3 pull-right">
-         <?php include 'sidebar.php'; ?>
+         <?php include 'sidebar.php';  ?>
           </div><!--/category-productsr-->  
         
         <div class="col-sm-9 padding-right pull-left">
